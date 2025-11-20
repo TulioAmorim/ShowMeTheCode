@@ -1,0 +1,12 @@
+{
+  "name": "tulio/showthecode",
+  "description": "Exemplo",
+  "autoload": {
+    "psr-4": {
+      "Candidato\\": "src/Candidato/",
+      "Address\\": "src/Address/",
+      "PartidoPolitico\\": "src/PartidoPolitico/"
+    }
+  },
+  "require": {}
+}
