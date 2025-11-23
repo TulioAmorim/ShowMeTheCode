@@ -23,17 +23,18 @@ Toda a lógica está implementada de forma orientada a objetos dentro do diretó
 
 ✔ Adicionar candidatos ao partido
 
-✔ Remover candidatos afiliados
-
 ✔ Listar todos os candidatos
 
 ✔ Projeto estruturado com boas práticas de OOP
 
 📁 Estrutura do Projeto
 /src
- ├── Partido.php
- ├── Candidato.php
+ ├── Address/...
+ ├── PartidoPolitico/...
+ ├── Candidato/..
+ ├── exemplosPooAgilize.php
  └── exemplos.php
+ 
 
 Partido.php
 
@@ -51,14 +52,10 @@ Arquivo contendo exemplos completos de uso da API, incluindo entradas e saídas.
 
 No arquivo src/exemplos.php, você encontra exemplos práticos demonstrando como:
 
-Criar um partido
-
-Criar candidatos
-
-Associar candidatos ao partido
-
-Remover candidatos
-
-Exibir as informações no terminal
+✔ Criar um partido
+✔ Criar candidatos
+✔ Associar candidatos ao partido.
+✔ Exibir as informações de um candidato.
+✔ Exibir as informações de um partido.
 
 O arquivo também contém exemplos de output, facilitando o entendimento do comportamento da API na prática.
