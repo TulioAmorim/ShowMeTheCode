@@ -1,10 +1,11 @@
-ShowMeTheCode — API de Criação de Partido Político
+🗳️ ShowMeTheCode — API de Criação de Partido Político
+📌 Sobre o Projeto
 
-Este projeto é uma API simples em PHP para criação e gerenciamento de Partidos Políticos e seus Candidatos afiliados.
+Este projeto é uma API simples em PHP voltada para a criação e gerenciamento de Partidos Políticos e seus Candidatos afiliados.
 
-A API permite:
+Ela permite:
 
-Criar um Partido Político
+Criar um partido político
 
 Definir nome e sigla
 
@@ -12,18 +13,21 @@ Adicionar candidatos
 
 Remover candidatos
 
-Listar informações do partido e dos candidatos afiliados
+Listar informações do partido e seus afiliados
 
-Toda a lógica principal está organizada em classes dentro de src/.
+Toda a lógica está implementada de forma orientada a objetos dentro do diretório src/.
 
 🚀 Funcionalidades
-✔ Criar um partido político
-✔ Adicionar candidatos ao partido
-✔ Remover candidatos afiliados
-✔ Listar candidatos
-✔ Estrutura orientada a objetos
 
-As classes estão organizadas com foco em clareza e boa prática de programação.
+✔ Criar um partido político
+
+✔ Adicionar candidatos ao partido
+
+✔ Remover candidatos afiliados
+
+✔ Listar todos os candidatos
+
+✔ Projeto estruturado com boas práticas de OOP
 
 📁 Estrutura do Projeto
 /src
@@ -31,16 +35,21 @@ As classes estão organizadas com foco em clareza e boa prática de programaçã
  ├── Candidato.php
  └── exemplos.php
 
+Partido.php
 
-Partido.php — Classe que representa um partido político
+Classe responsável pela criação e manipulação de um partido político.
 
-Candidato.php — Classe que representa um candidato
+Candidato.php
 
-exemplos.php — Arquivo com exemplos completos de uso da API
+Classe que representa um candidato, contendo seus dados básicos.
+
+exemplos.php
+
+Arquivo contendo exemplos completos de uso da API, incluindo entradas e saídas.
 
 🧪 Exemplos de Uso
 
-No arquivo src/exemplos.php, você encontra demonstrações práticas de como:
+No arquivo src/exemplos.php, você encontra exemplos práticos demonstrando como:
 
 Criar um partido
 
@@ -50,6 +59,6 @@ Associar candidatos ao partido
 
 Remover candidatos
 
-Exibir informações no terminal
+Exibir as informações no terminal
 
-O próprio arquivo exibe exemplos de output, facilitando a compreensão do funcionamento da API.
+O arquivo também contém exemplos de output, facilitando o entendimento do comportamento da API na prática.
