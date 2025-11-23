@@ -53,9 +53,13 @@ Arquivo contendo exemplos completos de uso da API, incluindo entradas e saídas.
 No arquivo src/exemplos.php, você encontra exemplos práticos demonstrando como:
 
 ✔ Criar um partido
+
 ✔ Criar candidatos
+
 ✔ Associar candidatos ao partido.
+
 ✔ Exibir as informações de um candidato.
+
 ✔ Exibir as informações de um partido.
 
 O arquivo também contém exemplos de output, facilitando o entendimento do comportamento da API na prática.
